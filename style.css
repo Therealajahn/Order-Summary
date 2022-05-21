@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 
-  --inner-width: 75%;
-  --inner-width-mobile: 80%;
+  --inner-width: 20vw;
+  --inner-width-mobile: 65vw;
   --card-radius: 25px;
   --shadow: 0px 10px 25px 2px hsl(225, 34%, 81%);
   /* Colors */
@@ -38,23 +38,23 @@
 }
 #order-summary {
   position: absolute;
-  width: 30vw;
-  height: 90vh;
+  width: 27vw;
+  height: 43vw;
   background-color: var(--card-back);
   border-radius: var(--card-radius);
   display: grid;
   justify-items: center;
   box-shadow: var(--shadow);
-  grid-template-rows: 35vh 10vh 12vh 15vh 8vh;
+  grid-template-rows: 15vw 5vw 6vw 8vw 4vw;
 }
 #title {
-  font-size: 37px;
+  font-size: 2vw;
   font-weight: 900;
   color: var(--text);
 }
 
 p {
-  font-size: 22px;
+  font-size: 1.2vw;
   color: #a7a7a7;
 }
 #hero-img {
@@ -68,26 +68,26 @@ p {
   text-align: center;
 }
 #plan-title {
-  font-size: 22px;
+  font-size: 1vw;
   font-weight: 900;
   color: var(--text);
 }
 #plan {
   width: var(--inner-width);
-  height: 120px;
+  height: 6vw;
   border-radius: 5px;
   background-color: hsl(226, 100%, 97%);
   display: grid;
-  grid-template-columns: 30% 30% 40%;
+  grid-template-columns: 6vw 7vw 6vw;
   justify-items: center;
   align-items: center;
 }
 #music-icon {
-  width: 65px;
-  height: 65px;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 #change {
-  font-size: 19px;
+  font-size: 1vw;
   font-weight: 700;
   color: var(--link);
   text-decoration: underline;
@@ -103,10 +103,10 @@ p {
   height: 65px;
   background-color: var(--button);
   box-shadow: var(--shadow);
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 500;
   color: var(--background);
-  border-radius: 12px;
+  border-radius: 0.5vw;
   border: none;
   cursor: pointer;
 }
@@ -128,13 +128,13 @@ p {
     height: 80vh;
     grid-template-rows: 26vh 10vh 12vh 15vh 8vh;
   }
-
+  /* "#D6E1FF" */
   #wave {
     margin-top: -500px;
     content: url("images/pattern-background-mobile.svg");
   }
   #title {
-    font-size: 22px;
+    font-size: 7vw;
   }
   #plan-title {
     font-size: 14px;
@@ -150,8 +150,8 @@ p {
     grid-template-columns: 30% 30% 40%;
   }
   #music-icon {
-    width: 40px;
-    height: 40px;
+    width: 11vw;
+    height: 11vw;
   }
   p {
     font-size: 16px;
@@ -165,6 +165,7 @@ p {
   #payment,
   #cancel {
     height: 50px;
+    width: var(--inner-width-mobile);
     font-size: 15px;
     font-weight: 900;
   }
