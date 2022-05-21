@@ -100,7 +100,7 @@ p {
 #payment,
 #cancel {
   width: var(--inner-width);
-  height: 65px;
+  height: 3vw;
   background-color: var(--button);
   box-shadow: var(--shadow);
   font-size: 1vw;
