@@ -38,8 +38,8 @@
 }
 #order-summary {
   position: absolute;
-  width: 593px;
-  height: 920px;
+  width: 30vw;
+  height: 90vh;
   background-color: var(--card-back);
   border-radius: var(--card-radius);
   display: grid;
