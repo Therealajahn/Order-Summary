@@ -30,11 +30,11 @@
   background-color: var(--background);
   display: grid;
   justify-items: center;
-  align-items: center;
 }
 #wave {
-  width: 100%;
-  margin-top: -700px;
+  width: 100vw;
+  height: 50vh;
+  justify-self: start;
 }
 #order-summary {
   position: absolute;
@@ -46,6 +46,7 @@
   justify-items: center;
   box-shadow: var(--shadow);
   grid-template-rows: 15vw 5vw 6vw 8vw 4vw;
+  align-self: center;
 }
 #title {
   font-size: 2vw;
@@ -130,7 +131,7 @@ p {
   }
   /* "#D6E1FF" */
   #wave {
-    margin-top: -500px;
+    margin-top: -50px;
     content: url("images/pattern-background-mobile.svg");
   }
   #title {
