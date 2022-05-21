@@ -45,7 +45,7 @@
   display: grid;
   justify-items: center;
   box-shadow: var(--shadow);
-  grid-template-rows: 40% 10% 12% 18% 9% 10%;
+  grid-template-rows: 35vh 10vh 12vh 15vh 8vh;
 }
 #title {
   font-size: 37px;
@@ -124,10 +124,11 @@ p {
 
 @media (hover: none), (pointer: coarse) {
   #order-summary {
-    width: 307.5px;
-    height: 533.594px;
-    grid-template-rows: 33% 13% 13% 17% 10% 10%;
+    width: 87vw;
+    height: 80vh;
+    grid-template-rows: 26vh 10vh 12vh 15vh 8vh;
   }
+
   #wave {
     margin-top: -500px;
     content: url("images/pattern-background-mobile.svg");
